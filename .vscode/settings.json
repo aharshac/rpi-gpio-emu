@@ -1,0 +1,30 @@
+{
+	"editor.insertSpaces": true,
+	"editor.detectIndentation": false,
+	"files.eol": "\n",
+  
+	"terminal.integrated.shellArgs.windows": [
+	  "powershell -noexit -command ${env:OCTOPRINT_ENV}\\Scripts\\activate.ps1"
+	],
+	
+	"python.pythonPath": "${env:OCTOPRINT_ENV}\\Scripts\\python.exe",
+	"python.jediEnabled": false,
+  
+	"python.linting.enabled": true,
+	"python.linting.pylintEnabled": false,
+	"python.linting.pylintPath": "${env:OCTOPRINT_ENV}\\Scripts\\pylint.exe",
+	"python.linting.pylintArgs": [
+	  "-E"
+	],
+  
+	"python.linting.flake8Enabled": true,
+	"python.linting.flake8Args": [
+	  "--ignore=E722",
+	  "--max-line-length=200"
+	],
+  
+	"python.formatting.provider": "autopep8",
+	"python.formatting.autopep8Args": [
+	  "--max-line-length=200"
+	],
+}

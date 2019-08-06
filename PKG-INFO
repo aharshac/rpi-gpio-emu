@@ -1,0 +1,38 @@
+Metadata-Version: 1.1
+Name: rpi-gpio-emu
+Version: 0.0.1
+Summary: Placeholder package to emulate RPi.GPIO package on non-Pi devices
+Home-page: https://github.com/aharshac/rpi-gpio-emu
+Author: Harsha Alva
+Author-email: aharshac@gmail.com
+License: MIT
+Description: This package provides placeholders to emulate the RPi.GPIO package functions on other devices.
+
+        The expected output from the functions "input", "getmode", "event_detected", and the delay time in seconds for "wait_for_edge" can be set using the "out" keyword argument.
+        The output for these functions is random otherwise, except for "wait_for_edge" which is 1 second.
+
+        The remaining functions "add_event_callback", "add_event_detect", "cleanup", "getmode", "gpio_function", "output", "remove_event_detect", "setmode", "setup", and "setwarnings" do nothing.
+
+        For examples and documentation of RPi.GPIO, visit http://sourceforge.net/p/raspberry-gpio-python/wiki/Home/
+
+        Project page: https://github.com/aharshac/rpi-gpio-emu
+        
+        Change Log
+        ==========
+        
+        0.0.1
+        ------
+        - Based on RPi.GPIO 0.6.5
+        
+        
+Keywords: Raspberry Pi GPIO
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Topic :: Home Automation
+Classifier: Topic :: System :: Hardware

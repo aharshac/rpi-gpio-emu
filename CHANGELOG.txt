@@ -1,0 +1,7 @@
+Change Log
+==========
+
+0.0.1
+------
+- Based on RPi.GPIO 0.6.5
+
